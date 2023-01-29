@@ -24,3 +24,32 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plants {
+  display: flex;
+  gap: 52px;
+  
+}
+
+.plant {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
